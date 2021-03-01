@@ -1,0 +1,60 @@
+:root {
+    --head_zwei: calc(1.5rem + (35 - 24) * (100vw - 400px) / (800 - 400));
+    --head_zwei_zeile: calc(2.2rem + (55 - 30) * (100vw - 400px) / (800 - 400));
+    --head_drei: calc(1.5rem + (25 - 18) * (100vw - 400px) / (800 - 400));
+    --head_drei_zeile: calc(1.8rem + (28 - 20) * (100vw - 400px) / (800 - 400));
+    --paragraph_zwei: calc(1rem + (17 - 15) * (100vw - 400px) / (800 - 400));
+    --paragraph_zwei_zeile: calc(1.2rem + (20 - 17) * (100vw - 400px) / (800 - 400));
+    --paragraph: calc(0.8rem + (16 - 14) * (100vw - 400px) / (800 - 400));
+    --paragraph_zeile: calc(1rem + (19 - 16) * (100vw - 400px) / (800 - 400));
+    --paragraph_zeile_filter: calc(1.5rem + (28 - 24) * (100vw - 400px) / (800 - 400));
+
+    --corporate_color_violett_hell: rgba(111, 23, 97, 1);
+    --corporate_color_violett: rgba(75, 0, 64, 1);
+    --corporate_color_body: rgba(253, 247, 247, 1);
+
+    --corporate_font_light: font-weight: 300; 
+    --corporate_font_roman: font-weight: 400; 
+    --corporate_font_italic: font-weight: 300; font-style: italic;
+    --corporate_font_bold: font-weight: 700; 
+    --corporate_font_black: font-weight: 800;
+  }
+
+/* MENUE___________________________________________*/
+
+h2 {
+  font-size: var(--head_zwei);
+  font-weight: 800;
+}
+
+p {
+  font-size: var(--paragraph_zwei);
+  font-weight: 300;
+}
+
+body {
+    display: grid;
+    grid-template-rows: minmax(45rem, min-content) minmax(calc(100vh - 53rem), min-content) minmax(8rem, min-content);
+    grid-template-columns: 1fr minmax(300px, 1600px) 1fr;
+    margin: 0;
+    background-color: white;
+    align-content: center;
+    font-family: linotype-vectora, sans-serif;
+   /* font-weight: 400;  */ 
+    font-style: normal;
+    font-size: 65.5%;
+    box-sizing: border-box;
+  }
+
+
+
+  .footer{
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+    background-color: black;
+    color: white;
+}
+
+
+
+

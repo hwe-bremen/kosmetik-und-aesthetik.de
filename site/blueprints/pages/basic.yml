@@ -1,0 +1,14 @@
+title: basic
+preset: page
+options:
+  changeTemplate:
+    - basic
+    - default
+
+fields:  
+  text:
+    label: Text
+    type: blocks
+    fieldsets:
+      - heading
+      - text

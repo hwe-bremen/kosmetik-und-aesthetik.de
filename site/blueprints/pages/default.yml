@@ -1,0 +1,12 @@
+title: Default Page
+preset: page
+options:
+  changeTemplate:
+    - basic
+    - default
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+

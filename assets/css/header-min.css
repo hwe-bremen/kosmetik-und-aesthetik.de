@@ -1,0 +1,138 @@
+
+  /* MENUE___________________________________________*/
+
+  .menu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 1px 0 gray;
+  }
+  .logo_image {
+    display: none;
+    overflow: hidden;
+    float: left;
+    margin: 5px 0;
+    color: green;
+    height: 1rem;
+    width: auto;
+  }
+  input#hamburger-menu {
+  display: none;
+  }
+  
+  nav ul {
+    float: right;
+    list-style: none;
+    margin: 10px -20px;
+    text-align: center;
+  }
+  nav li {
+    display: inline-block;
+    margin: 20px 20px;
+    list-style: none;
+  }
+  li a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:  var(--corporate_color);
+    font-style: var(--corporate_font_black); 
+  }
+  nav li:last-child a {
+  padding: 0.3rem;
+  color: white;
+  font-weight: 800;
+  border-radius: 3px;
+  }
+  
+  /* MENÜ -- HAMBURGER______________________________________________________ */
+  
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 2.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
+    cursor: pointer;
+    float: right;
+  }  
+  .hamburger-menu .bar {
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+    margin: 3px 0px;
+    transform-origin: left;
+    transition: all 0.5s;
+  } 
+  #hamburger-menu:checked + .hamburger-menu .top {
+    transform: rotate(45deg);
+  } 
+  #hamburger-menu:checked + .hamburger-menu .middle {
+    opacity: 0;
+  }
+  #hamburger-menu:checked + .hamburger-menu .bottom {
+  transform: rotate(-45deg);
+  }
+  
+  #hamburger-menu:checked + .hamburger-menu + #nav_eben1 {
+    padding-top: 30px;
+    background-color: var(--corporate_color);
+    transform: translateY(-5%);
+    }
+  
+  #nav_eben1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+    transform: translateY(-220%);
+    width: 100%;
+    transition: all 0.3s  ease-in-out;
+    }
+  
+    nav ul {
+      margin-top: 0px;
+      margin-right: 0px
+  }
+  
+  li a {
+      font-size: 2rem;
+      color:  white;
+  }
+    
+  
+    /* HEADER___________________________________________*/
+  
+    #header_bereich {
+        position: relative;
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 1;
+        background: url(content/Statueportraitart_korrigiert_final.png) 10rem 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
+        background-size: 100%, 100%; 
+    }
+  
+    #background_picture {
+      margin-top: 60vh;
+      position: absolute;
+      height: 110vh;
+      width: 100%;
+      background-size: cover; 
+      background-image: url(content/hintergrund.svg);
+      background-repeat: no-repeat;
+      z-index: 1; 
+    }
+  
+    #logo_green {
+        position: absolute;
+        margin: 10rem 0 0 2rem;
+        height: 14rem;
+    }
+  
+    main {
+        grid-column: 2/ span 1;
+        grid-row: 2 / span 1;
+        background-color: var( --corporate_color_body);
+    }
+  
