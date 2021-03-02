@@ -15,6 +15,7 @@
         'assets/css/home-min.css', 
         'assets/css/header-min.css',
         'assets/css/intro-min.css',
+        'assets/css/leistungen-min.css',
         'assets/css/mediascreen-min.css',
  ])  ?> 
 

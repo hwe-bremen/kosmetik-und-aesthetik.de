@@ -6,7 +6,7 @@
 }
 
 .section_intro-text {
-  margin: -30vW auto;
+  margin: -10rem auto -3rem auto;
   max-width: 350px;
   position: relative;
   font-family: linotype-vectora, sans-serif;
@@ -15,7 +15,7 @@
   }
   
 #section_intro--frau {
-  margin: 8rem auto;
+  margin: 5rem auto;
   padding: 2rem;
   height: 60%;
   max-width: 300px

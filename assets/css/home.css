@@ -11,7 +11,7 @@
 
     --corporate_color_violett_hell: rgba(111, 23, 97, 1);
     --corporate_color_violett: rgba(75, 0, 64, 1);
-    --corporate_color_body: rgba(253, 247, 247, 1);
+    --corporate_color_body: rgb(252, 237, 237);
 
     --corporate_font_light: font-weight: 300; 
     --corporate_font_roman: font-weight: 400; 
@@ -27,9 +27,15 @@ h2 {
   font-weight: 800;
 }
 
+h4 {
+  font-size: var(--head_zwei);
+  font-weight: 300;
+}
+
 p {
   font-size: var(--paragraph_zwei);
   font-weight: 300;
+  line-height: var(--paragraph_zwei_zeile);
 }
 
 body {

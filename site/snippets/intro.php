@@ -3,6 +3,6 @@
          <?= $data->text()->myBlocksField()->toBlocks() ?>
     </div>      
         <img id="section_intro--frau" src="content/frau.svg" alt="symbolbild_haut">
-</section>        
+</section> 
+      
 
-    </main>

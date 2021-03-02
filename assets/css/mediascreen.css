@@ -1,27 +1,33 @@
 /* Zusätzliche Regeln für kleinere Monitore  */
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 400px) {
 
   #header_bereich {
-    background: url(content/Statueportraitart_korrigiert_final.png) 180% 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
-    background-size: 80%, 100%; 
-  }
+    background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
+    linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%) no-repeat;
+    background-size: 25rem,
+    100%;
+    background-position: 50vw -45%,
+    0rem 0rem;
+}
 
   .section_intro-text {
+    max-width: 70%;
     margin-top: -15vW;
   }
-  
+
 }
-  
   @media only screen and (min-width: 768px) {
 
   body {
-    grid-template-rows: minmax(35rem, min-content) minmax(calc(100vh - 53rem), min-content) minmax(8rem, min-content);
+    grid-template-rows: minmax(40rem, min-content) minmax(calc(100vh - 53rem), min-content) minmax(8rem, min-content);
   }
 
   #header_bereich {
-    background: url(content/Statueportraitart_korrigiert_final.png) 100% 60% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
+    background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
+    linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
     background-size: 45%, 100%; 
+    background-position: 100% 30%;
  }
     
   #background_picture {
@@ -29,25 +35,112 @@
     height: 65vh; 
  }
 
+ #logo_green {
+   position: absolute;
+   margin: 8rem 0 0 4rem;
+   height: 16rem;
+ }
+
   #intro {
     flex-flow: row-reverse;
   }
 
   .section_intro-text {
-    margin: -2vw 4vw 0 0.5rem;
-    max-width: 400px;
+    margin: -5rem 1rem 0 0.5rem;
+    max-width: 70%;
     text-align: left;
     }
       
   #section_intro--frau {
-    margin-top: 5rem;
     max-width: 250px;
     }
+.section_leistungen-text {
+  margin: -1rem 0 0 20rem;
+  max-width: 60%;
+  text-align: left;
 }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  #header_bereich {
+    background: url(content/Statueportraitart_korrigiert_final.png) 180% 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
+    background-size: 35%, 100%;
+    background-position: 100%;
+  }
+
+  #background_picture {
+    margin-top: 23rem;
+    height: 50rem;
+  }
+
+  #logo_green {
+    position: absolute;
+    margin: 6rem 0 0 6rem;
+    height: 16rem;
+  }
+
+  .section_intro-text {
+    margin: -3rem 1.5rem 0 1rem;
+    max-width: 60%;
+  }
+
+  #section_intro--frau {
+    max-width: 300px;
+    margin-top: 8rem;
+  }
+
+  .section_leistungen-text {
+    margin: -1rem 0 0 34.5rem;
+  }
+
+  }
+
+  @media (min-device-width: 1024px) and (orientation: landscape) {
+
+    #header_bereich {
+      background-size: 30%, 100%;
+      background-position: 100%;
+    }
+
+    h2 {
+      font-size: 3rem;
+    }
+
+    h4 {
+      font-size: 3rem;
+    }
+  }
 
  @media only screen and (min-width: 1600px) {
   
   body {
     grid-template-columns: minmax(min-content) minmax(min-content, 1600px) minmax(min-content);
 }
+#header_bereich {
+  background: url(content/Statueportraitart_korrigiert_final.png) no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
+  background-size: 25rem, 100%;
+  background-position: 80%;
+}
+
+#background_picture {
+  margin-top: 23rem;
+  height: 75vh;
+}
+
+#logo_green {
+  position: absolute;
+  margin: 5% 0 0 30%;
+  height: 16rem;
+}
+
+.section_intro-text {
+  margin: -1rem 5rem 0 0rem;
+}
+
+.section_intro-text p {
+  max-width: 70%;
+}
+
   }

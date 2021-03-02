@@ -109,12 +109,16 @@
         position: relative;
         grid-column: 1 / span 3;
         grid-row: 1 / span 1;
-        background: url(content/Statueportraitart_korrigiert_final.png) 10rem 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
-        background-size: 100%, 100%; 
+        background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
+        linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%)no-repeat;
+        background-size: 100%,
+        100%;
+        background-position: 11rem -5rem,
+        0rem 0rem;
     }
   
     #background_picture {
-      margin-top: 60vh;
+      margin-top: 23rem;
       position: absolute;
       height: 110vh;
       width: 100%;

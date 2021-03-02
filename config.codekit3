@@ -105,6 +105,30 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/leistungen-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/leistungen-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/css\/leistungen.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/leistungen-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/mediascreen-min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -283,12 +307,12 @@
       "oAP" : "\/content\/2_leistungen\/6_laserepilation\/default.txt",
       "oF" : 0
     },
-    "\/content\/2_leistungen\/default.txt" : {
+    "\/content\/2_leistungen\/basic.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/content\/2_leistungen\/default.txt",
+      "oAP" : "\/content\/2_leistungen\/basic.txt",
       "oF" : 0
     },
     "\/content\/3_institut\/institut.txt" : {
@@ -5249,6 +5273,16 @@
       "oAP" : "\/media\/index.html",
       "oF" : 0
     },
+    "\/media\/pages\/SVG\/513472c604-1614700348\/frau.svg.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/pages\/SVG\/513472c604-1614700348\/frau.svg.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/media\/panel\/5e01c80a4df0f4c266b9786071b8bb4c\/apple-touch-icon.png" : {
       "ft" : 32768,
       "iS" : 4115,
@@ -5340,21 +5374,31 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/site\/0cb91efe35-1614535825\/frau.svg" : {
+    "\/media\/site\/6c7cfa9aa4-1614677585\/01_logo-bildmarke.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/0cb91efe35-1614535825\/frau.svg",
+      "oAP" : "\/media\/site\/6c7cfa9aa4-1614677585\/01_logo-bildmarke.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/site\/7badec36ea-1614454025\/Statueportraitart_korrigiert_final.png" : {
+    "\/media\/site\/8b2124a193-1614700288\/frau.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/site\/8b2124a193-1614700288\/frau.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/media\/site\/26edc7bdcf-1614677585\/Statueportraitart_korrigiert_final.png" : {
       "ft" : 32768,
       "iS" : 123660,
       "oA" : 0,
-      "oAP" : "\/media\/site\/7badec36ea-1614454025\/Statueportraitart_korrigiert_final.png",
+      "oAP" : "\/media\/site\/26edc7bdcf-1614677585\/Statueportraitart_korrigiert_final.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5363,41 +5407,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/media\/site\/7ff8f5aff2-1614448825\/logo-bildmarke.svg" : {
+    "\/media\/site\/e43d95881c-1614677585\/logo-green.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/7ff8f5aff2-1614448825\/logo-bildmarke.svg",
+      "oAP" : "\/media\/site\/e43d95881c-1614677585\/logo-green.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/site\/25c836abee-1614453844\/01_logo-bildmarke.svg" : {
+    "\/media\/site\/f3a6b802dd-1614677585\/hintergrund.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/25c836abee-1614453844\/01_logo-bildmarke.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/media\/site\/0418c4f152-1614451706\/hintergrund.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/media\/site\/0418c4f152-1614451706\/hintergrund.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/media\/site\/0186529139-1614459176\/logo-green.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/media\/site\/0186529139-1614459176\/logo-green.svg",
+      "oAP" : "\/media\/site\/f3a6b802dd-1614677585\/hintergrund.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -5422,28 +5446,28 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/site\/accounts\/BREGiEoY\/.htpasswd" : {
+    "\/site\/accounts\/HHOBuSYM\/.htpasswd" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/accounts\/BREGiEoY\/.htpasswd",
+      "oAP" : "\/site\/accounts\/HHOBuSYM\/.htpasswd",
       "oF" : 0
     },
-    "\/site\/accounts\/BREGiEoY\/index.php" : {
+    "\/site\/accounts\/HHOBuSYM\/index.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/accounts\/BREGiEoY\/index.php",
+      "oAP" : "\/site\/accounts\/HHOBuSYM\/index.php",
       "oF" : 0
     },
-    "\/site\/accounts\/BREGiEoY\/user.txt" : {
+    "\/site\/accounts\/HHOBuSYM\/user.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/accounts\/BREGiEoY\/user.txt",
+      "oAP" : "\/site\/accounts\/HHOBuSYM\/user.txt",
       "oF" : 0
     },
     "\/site\/accounts\/index.html" : {
@@ -5484,60 +5508,92 @@
       "oAP" : "\/build\/site\/cache",
       "oF" : 0
     },
-    "\/site\/sessions\/1614542523.a30bef789cbbebe5290e.sess" : {
+    "\/site\/sessions\/1614704104.5c369d2aa6f00e425a1b.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614542523.a30bef789cbbebe5290e.sess",
+      "oAP" : "\/site\/sessions\/1614704104.5c369d2aa6f00e425a1b.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614543694.47a27701b4f99c6833f5.sess" : {
+    "\/site\/sessions\/1614704104.90065a286d6bc174488b.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614543694.47a27701b4f99c6833f5.sess",
+      "oAP" : "\/site\/sessions\/1614704104.90065a286d6bc174488b.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614546699.3c5d4613ab9efcf12112.sess" : {
+    "\/site\/sessions\/1614708275.65a1ea7c36548baffb18.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614546699.3c5d4613ab9efcf12112.sess",
+      "oAP" : "\/site\/sessions\/1614708275.65a1ea7c36548baffb18.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614549704.d7dc3aa6b8ea1388cfbd.sess" : {
+    "\/site\/sessions\/1614708275.d2d591d4c632bdf42f06.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614549704.d7dc3aa6b8ea1388cfbd.sess",
+      "oAP" : "\/site\/sessions\/1614708275.d2d591d4c632bdf42f06.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614553310.9b7776a5564be202faea.sess" : {
+    "\/site\/sessions\/1614708846.3777ed108a5cf37161b9.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614553310.9b7776a5564be202faea.sess",
+      "oAP" : "\/site\/sessions\/1614708846.3777ed108a5cf37161b9.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614553610.80b233af8a16b13623e5.sess" : {
+    "\/site\/sessions\/1614708846.d13c5971fd9330db1745.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614553610.80b233af8a16b13623e5.sess",
+      "oAP" : "\/site\/sessions\/1614708846.d13c5971fd9330db1745.sess",
       "oF" : 0
     },
-    "\/site\/sessions\/1614554511.f69156f295b4f3a9fd9a.sess" : {
+    "\/site\/sessions\/1614710089.8d15fe3c55a28a1b9f9f.sess" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/site\/sessions\/1614554511.f69156f295b4f3a9fd9a.sess",
+      "oAP" : "\/site\/sessions\/1614710089.8d15fe3c55a28a1b9f9f.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1614710089.e07b04d05b1e17ccf0a3.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/sessions\/1614710089.e07b04d05b1e17ccf0a3.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1614710141.0d959b1385fe91affd97.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/sessions\/1614710141.0d959b1385fe91affd97.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1614710141.19bffe3bf571371acf41.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/sessions\/1614710141.19bffe3bf571371acf41.sess",
+      "oF" : 0
+    },
+    "\/site\/sessions\/1614710595.ed9a1afa272ce5a860d1.sess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/sessions\/1614710595.ed9a1afa272ce5a860d1.sess",
       "oF" : 0
     },
     "\/site\/sessions\/index.html" : {
@@ -5580,6 +5636,14 @@
       "oAP" : "\/site\/snippets\/intro.php",
       "oF" : 0
     },
+    "\/site\/snippets\/leistungen.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site\/snippets\/leistungen.php",
+      "oF" : 0
+    },
     "\/site\/templates\/default.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -5605,7 +5669,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 636131298.02060795,
-    "displayValue" : " kosmetik-und-aesthetik.de",
+    "displayValue" : "kosmetik-und-aesthetik.de",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/media\/panel\/5e01c80a4df0f4c266b9786071b8bb4c\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
