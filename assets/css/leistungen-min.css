@@ -1,4 +1,4 @@
-#leistungen {
+.section_leistungen-intro {
   display: flex;
   flex-flow: row wrap;
   position: relative;
@@ -7,15 +7,29 @@
 }
 
 .section_leistungen-text {
-  margin: -10rem auto -3rem auto;
-  max-width: 350px;
+  margin: 0 2rem 0 1rem;
   position: relative;
   font-family: linotype-vectora, sans-serif;
   text-align: center;
   color: var(--corporate_color_violett);
 }
-
-
 .section_leistungen-text:nth-child(1) {
   font-weight: 400;
+}
+
+.section_leistungen-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin: 3rem;
+  grid-gap: 3rem;
+}
+
+.section_leistungen-card {
+  border: 2px solid;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  border-color: var(--corporate_color_violett);
+  color: var(--corporate_color_violett);
+  background-color: white;
+  box-shadow: 8px 8px 10px silver;
 }

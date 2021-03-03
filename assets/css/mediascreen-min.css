@@ -11,10 +11,9 @@
     0rem 0rem;
 }
 
-  .section_intro-text {
-    max-width: 70%;
-    margin-top: -15vW;
-  }
+#background_picture {
+  height: 80vh;
+}
 
 }
   @media only screen and (min-width: 768px) {
@@ -43,23 +42,43 @@
  }
 
   #intro {
-    flex-flow: row-reverse;
+    display: grid;
+    grid-template-columns: 1fr 60%;
+    grid-template-rows: 1fr;
+    margin-top: -5rem;
   }
 
   .section_intro-text {
-    margin: -5rem 1rem 0 0.5rem;
-    max-width: 70%;
+    grid-column: 2/ span 1;
     text-align: left;
-    }
+    margin: 0 2rem 0 1rem;
+  }
       
   #section_intro--frau {
-    max-width: 250px;
-    }
-.section_leistungen-text {
-  margin: -1rem 0 0 20rem;
-  max-width: 60%;
-  text-align: left;
+    grid-column: 1/ span 1;
+    grid-row: 1/ span 1;
+    margin-left: 2rem;
+    margin-Top: 12rem;
+
+  }
+.section_leistungen-intro {
+  display: grid;
+  grid-template-columns: 1fr 60%;
+  margin-top: -10rem;
 }
+
+  .section_leistungen-text {
+    grid-column: 2/ span 1;
+    text-align: left;
+  }
+
+}
+
+@media (min-device-width: 768px) and (orientation: landscape) {
+
+  .section_leistungen-intro {
+    margin-top: -15rem;
+  }
 
 }
 
@@ -82,20 +101,18 @@
     height: 16rem;
   }
 
-  .section_intro-text {
-    margin: -3rem 1.5rem 0 1rem;
-    max-width: 60%;
-  }
-
   #section_intro--frau {
-    max-width: 300px;
-    margin-top: 8rem;
+    margin-Top: 10rem;
   }
 
-  .section_leistungen-text {
-    margin: -1rem 0 0 34.5rem;
+  h2 {
+    font-size: 2rem;
   }
 
+  h4 {
+    font-size: 2rem;
+  }
+  
   }
 
   @media (min-device-width: 1024px) and (orientation: landscape) {
@@ -104,19 +121,10 @@
       background-size: 30%, 100%;
       background-position: 100%;
     }
-
-    h2 {
-      font-size: 3rem;
-    }
-
-    h4 {
-      font-size: 3rem;
-    }
   }
-
  @media only screen and (min-width: 1600px) {
   
-  body {
+body {
     grid-template-columns: minmax(-webkit-min-content) minmax(-webkit-min-content, 1600px) minmax(-webkit-min-content);
     grid-template-columns: minmax(min-content) minmax(min-content, 1600px) minmax(min-content);
 }
@@ -137,12 +145,30 @@
   height: 16rem;
 }
 
-.section_intro-text {
-  margin: -1rem 5rem 0 0rem;
+#intro {
+  grid-template-columns: 1fr 50%;
+  margin-top: 1rem;
+  padding: 1rem;
 }
 
-.section_intro-text p {
-  max-width: 70%;
+.section_intro-text {
+  grid-column: 2/ span 1;
+  text-align: left;
+  margin: 0 3rem 0 0;
+}
+    
+#section_intro--frau {
+  max-width: 60%;
+}
+
+.section_leistungen-intro {
+  grid-template-columns: 1fr 50%;
+  margin-top: -25rem;
+  padding: 1rem;
+}
+
+.section_leistungen-text {
+  margin: 0 3rem 0 0;
 }
 
   }
