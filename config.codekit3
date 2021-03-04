@@ -5374,31 +5374,31 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/media\/site\/6c7cfa9aa4-1614677585\/01_logo-bildmarke.svg" : {
+    "\/media\/site\/0cb91efe35-1614869033\/frau.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/6c7cfa9aa4-1614677585\/01_logo-bildmarke.svg",
+      "oAP" : "\/media\/site\/0cb91efe35-1614869033\/frau.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/site\/8b2124a193-1614700288\/frau.svg" : {
+    "\/media\/site\/6c7cfa9aa4-1614855898\/01_logo-bildmarke.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/8b2124a193-1614700288\/frau.svg",
+      "oAP" : "\/media\/site\/6c7cfa9aa4-1614855898\/01_logo-bildmarke.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/site\/26edc7bdcf-1614677585\/Statueportraitart_korrigiert_final.png" : {
+    "\/media\/site\/7badec36ea-1614869033\/Statueportraitart_korrigiert_final.png" : {
       "ft" : 32768,
       "iS" : 123660,
       "oA" : 0,
-      "oAP" : "\/media\/site\/26edc7bdcf-1614677585\/Statueportraitart_korrigiert_final.png",
+      "oAP" : "\/media\/site\/7badec36ea-1614869033\/Statueportraitart_korrigiert_final.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -5407,21 +5407,74 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/media\/site\/e43d95881c-1614677585\/logo-green.svg" : {
+    "\/media\/site\/8b2124a193-1614855898\/frau.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/e43d95881c-1614677585\/logo-green.svg",
+      "oAP" : "\/media\/site\/8b2124a193-1614855898\/frau.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/media\/site\/f3a6b802dd-1614677585\/hintergrund.svg" : {
+    "\/media\/site\/25c836abee-1614869033\/01_logo-bildmarke.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/media\/site\/f3a6b802dd-1614677585\/hintergrund.svg",
+      "oAP" : "\/media\/site\/25c836abee-1614869033\/01_logo-bildmarke.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/media\/site\/26edc7bdcf-1614855898\/Statueportraitart_korrigiert_final.png" : {
+      "ft" : 32768,
+      "iS" : 123660,
+      "oA" : 0,
+      "oAP" : "\/media\/site\/26edc7bdcf-1614855898\/Statueportraitart_korrigiert_final.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/media\/site\/0418c4f152-1614869033\/hintergrund.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/site\/0418c4f152-1614869033\/hintergrund.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/media\/site\/0186529139-1614869033\/logo-green.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/site\/0186529139-1614869033\/logo-green.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/media\/site\/e43d95881c-1614855898\/logo-green.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/site\/e43d95881c-1614855898\/logo-green.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/media\/site\/f3a6b802dd-1614855898\/hintergrund.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/media\/site\/f3a6b802dd-1614855898\/hintergrund.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -5669,7 +5722,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 636131298.02060795,
-    "displayValue" : "kosmetik-und-aesthetik.de",
+    "displayValue" : " kosmetik-und-aesthetik.de",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "\/media\/panel\/5e01c80a4df0f4c266b9786071b8bb4c\/apple-touch-icon.png",
     "iconImageWasSetByUser" : 0
