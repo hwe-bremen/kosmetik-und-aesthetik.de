@@ -4,6 +4,7 @@ options:
   changeTemplate:
     - basic
     - default
+    - leistungen
 fields:
   text:
     label: Text

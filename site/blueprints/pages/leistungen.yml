@@ -1,0 +1,27 @@
+title: leistungen
+preset: page
+options:
+  changeTemplate:
+    - basic
+    - default
+    - leistungen_sub
+    - leistungen_sub_level_one
+fields: 
+  tags:
+      label: Schlagworte
+      type: tags
+      layout: list
+      width: 1/3
+      options: 
+        - Corporate Design
+        - Workshop
+        - Webentwicklung
+  text:
+    label: Textblock
+    type: blocks
+    fieldsets:
+      - heading
+      - text
+
+
+

@@ -38,6 +38,7 @@
     color:  var(--corporate_color);
     font-style: var(--corporate_font_black); 
   }
+  
   nav li:last-child a {
   padding: 0.3rem;
   color: white;

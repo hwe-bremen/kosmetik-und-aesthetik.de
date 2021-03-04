@@ -4,7 +4,8 @@ options:
   changeTemplate:
     - basic
     - default
-
+    - leistungen
+    - leistungen_sub
 fields:  
   text:
     label: Text
