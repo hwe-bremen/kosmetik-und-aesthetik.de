@@ -39,6 +39,23 @@ p {
   line-height: var(--paragraph_zwei_zeile);
 }
 
+.button_standard {
+  border: none;
+  border-radius: 30px;
+  background-color: var(--corporate_color_violett);
+  width: 60%;
+  max-width: 230px;
+  align-self: left;
+}
+
+.button_standard > a {
+  text-decoration: none;
+  margin: 0 auto;
+  color: var(--corporate_color_body);
+  font-size: 1rem;
+  line-height: 3rem;
+}
+
 body {
     display: grid;
     grid-template-rows: minmax(45rem, -webkit-min-content) minmax(calc(100vh - 53rem), -webkit-min-content) minmax(8rem, -webkit-min-content);

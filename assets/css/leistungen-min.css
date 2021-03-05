@@ -25,11 +25,28 @@
 }
 
 .section_leistungen-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
   border: 2px solid;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 2rem;
   border-color: var(--corporate_color_violett);
   color: var(--corporate_color_violett);
   background-color: white;
   box-shadow: 8px 8px 10px silver;
+}
+.section_leistungen-card > p {
+  margin: 0 0 2rem 0;
+}
+
+.section_leistungen-card > h2 {
+  margin: 0 0 1.5rem 0;
+ }
+
+ .section_leistungen-tags-nav {
+   height: 2rem;
+   width: 5rem;
+   background-color: var(--corporate_color_violett);
+  width: 60%;
 }
