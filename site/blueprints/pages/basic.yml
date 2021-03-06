@@ -5,11 +5,38 @@ options:
     - basic
     - default
     - leistungen
-    - leistungen_sub
+    - leistungen
+    - leistungen_sub_level_one
 fields:  
-  text:
-    label: Text
-    type: blocks
-    fieldsets:
-      - heading
-      - text
+  text:       
+      label: Text_Left
+      type: textarea
+  Image_Left:
+      type: files 
+      headline: Image_left
+      layout: cards
+      template: image
+      image:
+          cover: true    
+  blocks:
+      label: Text-Right
+      type: blocks
+      fieldsets:
+        - heading
+        - text
+  Image_Right:
+      type: files 
+      headline: Image_right
+      layout: cards
+      template: image
+      image:
+          cover: true  
+  Gallery:
+      type: files 
+      headline: gallery
+      layout: cards
+      template: image
+      image:
+          cover: true         
+                
+ 

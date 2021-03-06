@@ -5,6 +5,7 @@ options:
     - basic
     - default
     - leistungen
+    - leistungen_sub_level_one
 fields:
   text:
     label: Text

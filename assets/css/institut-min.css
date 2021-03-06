@@ -1,0 +1,95 @@
+.grid_institut {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(30px, 1fr));
+    grid-template-rows: minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr)  minmax(-webkit-min-content 1fr);
+    grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr)  minmax(min-content 1fr);
+    position: relativ;
+    z-index: 5;
+    background-image: linear-gradient(to left, var(--corporate_color_violett_hell) -30%, var(--corporate_color_violett)50%);
+}
+
+.section_institut_left {
+    grid-column: 1 /span 12;
+    grid-row: 1 / span 1;
+}
+.text_left {
+    grid-column: 1 /span 12;
+    grid-row: 3 / span 1;
+    color: white;
+    margin: 2rem 5rem 0 2rem;
+}
+.bild_left {
+   width: 100%;
+   height: auto;
+   background-size: cover;
+}
+
+.section_institut_right {
+    grid-column: 1 / span 12;
+    grid-row: 2 / span 1;
+    background-size: cover;
+}
+
+.bild_right {
+    display: none;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    margin: 0;
+ }
+.text_right {
+    grid-column: 1 /span 12;
+    grid-row: 2 / span 1;
+    color: white;
+    margin: 2rem 5rem 0 2rem;
+}
+
+.bild_gallery {
+    grid-column: 1 /span 12;
+    grid-row: 4 / span 1;
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    background-color: white;
+    margin: 0;
+    padding: 0.2rem 0.3rem 0.2rem 0;
+
+}
+
+.bild_gallery:nth-child(6) {
+    grid-column: 1 /span 6;
+    grid-row: 5 / span 1;
+    width: 99%;
+    height: 99%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(7) {
+    grid-column: 7 /span 6;
+    grid-row: 5 / span 1;
+    width: 99%;
+    height: 99%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(8) {
+    grid-column: 1 /span 6;
+    grid-row: 6 / span 1;
+    width: 99%;
+    height: 99%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(9) {
+    grid-column: 7 /span 6;
+    grid-row: 6 / span 1;
+    width: 99%;
+    height: 99%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+}

@@ -13,13 +13,14 @@
 
 <?= css([
         'assets/css/home-min.css', 
-        'assets/css/header-min.css',
+        'assets/css/header_sub-min.css',
         'assets/css/intro-min.css',
         'assets/css/leistungen-min.css',
         'assets/css/institut-min.css',
         'assets/css/mediascreen-min.css',
  ])  ?> 
 
+<?= css($page->files()->filterBy('extension', 'css')->pluck('url')) ?>
 
 <link rel="stylesheet" href="https://use.typekit.net/wum6flf.css">
 
@@ -29,7 +30,7 @@
 </head>
 <body>
 
-<header id="header_bereich"> 
+<header id="header_bereich_sub"> 
 
 <nav class="menu">
     <a class="logo" href="<?= $site->url() ?>"><image class="logo_image" src="<?= $site->image()->url() ?>"></a>
@@ -45,8 +46,8 @@
                 <?php endforeach ?>
     </ul>
 </nav>
-<img id="logo_green" src="content/logo-green.svg" alt="logo">
- <div id="background_picture" ></div>  
+<img id="logo_green_sub" src="content/logo-green.svg" alt="logo">
+ <div id="background_picture_sub" ></div>  
 
 </header>
 

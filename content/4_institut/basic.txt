@@ -1,0 +1,168 @@
+Text:
+
+Moderne Räumlichkeiten bieten eine entspannte Atmosphäre, in der Sie sich ganz in Ruhe auf Ihre Behandlung konzentrieren können.
+
+Das wir nur mit modernem und zeitgemäßen Equipment arbeiten, versteht sich von selbst.
+
+----
+
+Image-left:
+
+- institut_raum1.jpg
+
+----
+
+Blocks: [{"content":{"level":"h2","text":"Seit \u00fcber 10 Jahren sind wir nun schon ein gefragter Anlaufpunkt f\u00fcr alle Fragen rund um die gesunde Haut ihre Pflege und jung Erhaltung."},"id":"5c1d2430-8549-4566-a7b5-b622e2b51d89","isHidden":false,"type":"heading"},{"content":{"text":"<p>Dabei garantieret unser erfahrenes Team aus Haut\u00e4rzten*innen und staatlich gepr\u00fcfter Kosmetikerin, eine umfassende Beratung und Behandlung.<\/p>"},"id":"d9662082-d8ae-4d1e-9032-fd773b5a7482","isHidden":false,"type":"text"}]
+
+----
+
+Image-right:
+
+- institut_detail.jpg
+
+----
+
+Gallery:
+
+- >
+  womangettingcosmeticinjectionofbotoxincheek.jpg
+- >
+  beautifulseniorwomangettingspamassagetreatmentatbeautyspasalon.facialbeautytreatment.jpg
+- >
+  professionalbeauticianrejuvenatingmaleface.jpg
+- >
+  beautifulwomaninprofessionalbeautysalonduringphotorejuvenationprocedure.jpg
+- >
+  plasticcosmeticsurgeonexaminesbeautifulwoman-sfacetouchesitwithglovedhandsinspectinghealedfaceafterplasticsurgerywithamazingresu.jpg
+
+----
+
+Imageleft: - institut_raum1.jpg
+
+----
+
+Cover:
+
+- 
+  filename: institut_detail.jpg
+  dragText: '(image: institut_detail.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut_detail.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut_detail.jpg
+        352w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-864x.jpg
+        864w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-38x38.jpg
+        1x,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-76x76.jpg
+        2x
+  id: institut/institut_detail.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: true
+    url: >
+      http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut_detail.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut_detail.jpg
+        352w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-864x.jpg
+        864w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-38x38.jpg
+        1x,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut-detail-76x76.jpg
+        2x
+  info: ""
+  link: >
+    /pages/institut/files/institut_detail.jpg
+  text: institut_detail.jpg
+  type: image
+  url: >
+    http://kosmetik-und-aesthetik:8888/media/pages/institut/1211bdaadb-1615034376/institut_detail.jpg
+  uuid: institut_detail.jpg
+- 
+  filename: institut_raum1.jpg
+  dragText: '(image: institut_raum1.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut_raum1.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-352x.jpg
+        352w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-864x.jpg
+        864w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-38x38.jpg
+        1x,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-76x76.jpg
+        2x
+  id: institut/institut_raum1.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: true
+    url: >
+      http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut_raum1.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-352x.jpg
+        352w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-864x.jpg
+        864w,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-38x38.jpg
+        1x,
+        http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut-raum1-76x76.jpg
+        2x
+  info: ""
+  link: /pages/institut/files/institut_raum1.jpg
+  text: institut_raum1.jpg
+  type: image
+  url: >
+    http://kosmetik-und-aesthetik:8888/media/pages/institut/69444a1bde-1615034376/institut_raum1.jpg
+  uuid: institut_raum1.jpg

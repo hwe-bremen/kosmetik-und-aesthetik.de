@@ -1,3 +1,8 @@
+#leistungen {
+  position: relative;
+  z-index: 5;
+
+}
 .section_leistungen-intro {
   display: flex;
   flex-flow: row wrap;
@@ -13,15 +18,18 @@
   text-align: center;
   color: var(--corporate_color_violett);
 }
+
 .section_leistungen-text:nth-child(1) {
   font-weight: 400;
 }
 
 .section_leistungen-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  margin: 3rem;
-  grid-gap: 3rem;
+  position: relative;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  margin: 0.5rem;
+  grid-gap: 1rem;
+  z-index: 5;
 }
 
 .section_leistungen-card {
@@ -49,4 +57,26 @@
    width: 5rem;
    background-color: var(--corporate_color_violett);
   width: 60%;
+}
+
+.abbinder {
+  margin: 4rem auto;
+  text-align: center;
+  width: 70%;
+}
+
+.section_leis_sub--sub {
+  display: grid;
+  grid-template-columns:  minmax(10px, 10%) minmax(300px, 1300px) minmax(10px, 10%);
+  margin-top: -10rem;
+  position: relative;
+  z-index: 5;
+}
+
+.section_leis_sub--sub-inhalt {
+  grid-column: 2 / span 1;;
+  font-family: linotype-vectora, sans-serif;
+  text-align: left;
+  margin: 0 4rem 0 0;
+  color: var(--corporate_color_violett);
 }

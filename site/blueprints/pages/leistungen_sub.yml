@@ -12,14 +12,6 @@ fields:
       type: tags
       layout: list
       width: 1/3
-      options: 
-        - Corporate Design
-        - Workshop
-        - Webentwicklung
-  text:
-    label: Text
-    type: textarea
-    size: large
   text:
     label: Textblock
     type: blocks

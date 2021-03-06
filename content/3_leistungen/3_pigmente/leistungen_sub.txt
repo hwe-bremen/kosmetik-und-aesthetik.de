@@ -1,0 +1,9 @@
+Title: Pigmente
+
+----
+
+Tags: 
+
+----
+
+Text: [{"content":{"text":"<p>Hier steht Text zu Pigmenten<\/p>"},"id":"7563183f-15db-4e18-a18e-481d88fad063","isHidden":false,"type":"text"}]

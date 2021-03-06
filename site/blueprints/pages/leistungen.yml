@@ -22,6 +22,10 @@ fields:
     fieldsets:
       - heading
       - text
+  Abbinder:
+    type: textarea
+    width: 2/3    
+
 
 
 

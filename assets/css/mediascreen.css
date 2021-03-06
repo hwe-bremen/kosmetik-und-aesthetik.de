@@ -15,6 +15,58 @@
   height: 80vh;
 }
 
+.grid_institut {
+  grid-template-columns: repeat(12, minmax(10px, 1fr));
+  grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr);
+}
+
+
+
+.text_left {
+  grid-column: 1 /span 12;
+  grid-row: 3 / span 1;
+  margin: 2rem 5rem 0 2rem;
+}
+
+.section_institut_right {
+ display: none;
+}
+
+.bild_right {
+display: none;
+}
+.text_right {
+  grid-column: 1 /span 12;
+  grid-row: 2 / span 1;
+  margin: 2rem 5rem 0 2rem;
+}
+
+.bild_gallery {
+  grid-column: 1 /span 6;
+  grid-row: 4 / span 1;
+  padding: 0.2rem 0.3rem 0.2rem 0;
+
+}
+
+.bild_gallery:nth-child(6) {
+  grid-column: 7 /span 6;
+  grid-row: 4 / span 1;
+  padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(7) {
+  grid-column: 7 /span 6;
+  grid-row: 5 / span 1;
+  padding: 0.2rem 0 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(8) {
+  grid-column: 1 /span 6;
+  grid-row: 5 / span 1;
+  padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(9) {
+  display: none;
+}
+
 }
   @media only screen and (min-width: 768px) {
 
@@ -60,6 +112,7 @@
     margin-Top: 12rem;
 
   }
+
 .section_leistungen-intro {
   display: grid;
   grid-template-columns: 1fr 60%;
@@ -71,7 +124,29 @@
     text-align: left;
   }
 
+  .text_right {
+    margin: 1rem;
+  }
+
+  .text_left {
+    margin: 1rem;
+  }
+
+  .text_right > h2 {
+    font-size: 1.2rem;
+  }
+
+  .text_right > p {
+    font-size: 1rem;
+  }
+ 
+  .text_left> p {
+   font-size: 1rem;
+ }
+
 }
+
+
 
 @media (min-device-width: 768px) and (orientation: landscape) {
 
@@ -79,6 +154,73 @@
     margin-top: -15rem;
   }
 
+  .section_leistungen-cards {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin: 3rem;
+    grid-gap: 3rem
+  }
+
+  .grid_institut {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(80px, 1fr));
+    grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr);
+}
+
+.section_institut_left {
+    grid-column: 1 /span 6;
+    grid-row: 1 / span 1;
+}
+.text_left {
+    grid-column: 1 /span 6;
+    grid-row: 2 / span 1;
+    margin: 2rem 2rem 0 4rem;
+}
+
+.section_institut_right {
+    display: unset;
+    grid-column: 7 /span 2;
+    grid-row: 2 / span 1;
+}
+
+.bild_right {
+    display: unset;
+
+ }
+.text_right {
+    grid-column: 7 /span 6;
+    grid-row: 1 / span 1;
+    margin: 2rem 4rem 0 2rem;
+}
+
+.bild_gallery {
+    grid-column: 1 /span 6;
+    grid-row: 3 / span 2;
+    padding: 0.2rem 0.3rem 0.2rem 0;
+
+}
+
+.bild_gallery:nth-child(6) {
+    grid-column: 7 /span 3;
+    grid-row: 3 / span 1;
+    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(7) {
+    grid-column: 10 /span 3;
+    grid-row: 3 / span 1;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(8) {
+    grid-column: 7 /span 3;
+    grid-row: 4 / span 1;
+    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+}
+.bild_gallery:nth-child(9) {
+    display: unset;
+    grid-column: 10 /span 3;
+    grid-row: 4 / span 1;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+}
+  
 }
 
 @media only screen and (min-width: 1024px) {
@@ -131,8 +273,35 @@
   h4 {
     font-size: 2rem;
   }
-  
-  }
+
+  .section_institut_left {
+    grid-column: 1 /span 6;
+    grid-row: 1 / span 1;
+}
+.text_left {
+    grid-column: 1 /span 6;
+    grid-row: 2 / span 1;
+    margin: 2rem 2rem 0 4rem;
+}
+
+.section_institut_right {
+    display: unset;
+    grid-column: 7 /span 2;
+    grid-row: 2 / span 1;
+}
+
+.bild_right {
+    display: unset;
+
+ }
+.text_right {
+    grid-column: 7 /span 6;
+    grid-row: 1 / span 1;
+    margin: 2rem 4rem 0 2rem;
+}
+ 
+}
+
 
   @media (min-device-width: 1024px) and (orientation: landscape) {
 
@@ -140,6 +309,18 @@
       background-size: 30%, 100%;
       background-position: 100%;
     }
+
+    .text_right > h2 {
+      font-size: 1.5rem;
+    }
+  
+    .text_right > p {
+      font-size: 1.2rem;
+    }
+   
+    .text_left> p {
+     font-size: 1.2rem;
+   }
 
   }
 
@@ -156,7 +337,7 @@ body {
 
 #background_picture {
   margin-top: 26rem;
-  height: 80vh;
+  height: 83vh;
 }
 
 #logo_green {
@@ -191,4 +372,42 @@ body {
   margin: 0 3rem 0 0;
 }
 
-  }
+.section_leistungen-card > p {
+  font-size: 1.5rem;
+}
+
+.abbinder {
+  margin: 8rem auto;
+  text-align: center;
+  width: 70%;
+}
+
+.text_left {
+  margin: 2rem 2rem 0 5rem;
+}
+.text_right {
+  margin: 2rem 5rem 0 2rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.8rem;
+}
+
+
+.text_right > h2 {
+  font-size: 2rem;
+}
+
+.text_right > p {
+  font-size: 1.5rem;
+}
+
+.text_left> p {
+ font-size: 1.5rem;
+}
+
+}
