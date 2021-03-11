@@ -10,20 +10,23 @@
 
     <div class="section_leistungen-cards"> 
 
-            <?php foreach($page->children()->listed() as $leistungen): ?>
+            <?php foreach($page->children()->listed() as $leistungen_sub): ?>
         <div class="section_leistungen-card">
     
-            <h2>    <?= $leistungen->title() ?></h2> <br>
-            <?= $leistungen->text()->myBlocksField()->toBlocks() ?>
+            <h2>    <?= $leistungen_sub->title() ?></h2> <br>
+            <?= $leistungen_sub->text()->myBlocksField()->toBlocks() ?>
 
-                <button class= button_standard>  <a href="<?= $leistungen->url() ?>">  <?= $leistungen_sub->tags()->html() ?></a></button> 
+        
 
             <div class="section_leistungen-tags">
                 <nav>
-                    <ul>
-                        <li class="section_leistungen-tags-nav"></li>
+                    <ul class="leistungen_nav">   <?php foreach($leistungen_sub->children()->listed() as $leistungen_sub): ?>
+                        <a class="tags_leistungen" href="<?= $leistungen_sub->url() ?>"><li class="section_leistungen-tags-nav"><p><?= $leistungen_sub->tags()->html() ?></p></li></a>
+                        <?php endforeach ?>
                     </ul>
+                       
                 </nav>
+
             </div>
           
         </div>
