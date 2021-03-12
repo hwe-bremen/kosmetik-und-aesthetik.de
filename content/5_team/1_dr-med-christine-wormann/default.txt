@@ -7,3 +7,81 @@ Text:
 Frau Dr. med.
 Christina Wörmann
 Fachärztin für Haut- und Geschlechtskrankheiten, Berufsdermatologie
+
+----
+
+Cover:
+
+- christina-woermann@2x.jpg
+
+----
+
+Bild: - christina-woermann@2x.jpg
+
+----
+
+Ibild:
+
+- 
+  filename: christina-woermann@2x.jpg
+  dragText: '(image: christina-woermann@2x.jpg)'
+  icon:
+    type: file-image
+    ratio: 3/2
+    back: pattern
+    color: '#de935f'
+    cover: true
+    url: >
+      https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann@2x.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-352x.jpg
+        352w,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-864x.jpg
+        864w,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-38x38.jpg
+        1x,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-76x76.jpg
+        2x
+  id: >
+    team/dr-med-christine-wormann/christina-woermann@2x.jpg
+  image:
+    ratio: 3/2
+    back: pattern
+    cover: true
+    url: >
+      https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann@2x.jpg
+    cards:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-352x.jpg
+        352w,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-864x.jpg
+        864w,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-1408x.jpg
+        1408w
+    list:
+      url: >
+        data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+      srcset: >
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-38x38.jpg
+        1x,
+        https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann-2x-76x76.jpg
+        2x
+  info: ""
+  link: >
+    /pages/team+dr-med-christine-wormann/files/christina-woermann@2x.jpg
+  text: christina-woermann@2x.jpg
+  type: image
+  url: >
+    https://kosmetik-und-aesthetik:8890/media/pages/team/dr-med-christine-wormann/09c2ba69e1-1615567451/christina-woermann@2x.jpg
+  uuid: christina-woermann@2x.jpg

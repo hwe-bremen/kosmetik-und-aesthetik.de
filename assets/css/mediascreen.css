@@ -156,8 +156,10 @@ display: none;
 
   .section_leistungen-cards {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin: 3rem;
-    grid-gap: 3rem
+    margin: 8rem 2rem 8rem 2rem;
+    column-gap: 3rem;
+    grid-row-gap: 9rem;
+    row-gap: 9rem;
   }
 
   .grid_institut {
@@ -409,5 +411,16 @@ p {
 .text_left> p {
  font-size: 1.5rem;
 }
+
+}
+@media only screen and (min-width: 2000px) {
+
+  body {
+    grid-template-columns: minmax(min-content) minmax(min-content, 1600px) minmax(min-content);
+  }
+
+  #background_picture {
+    margin-top: 21rem;
+  }
 
 }

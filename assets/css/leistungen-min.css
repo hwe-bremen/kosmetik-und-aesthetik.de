@@ -28,7 +28,8 @@
   position: relative;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
   margin: 0.5rem;
-  grid-gap: 1rem;
+  grid-row-gap: 5rem;
+  row-gap: 5rem;
   z-index: 5;
 }
 
@@ -36,6 +37,7 @@
   display: flex;
   flex-direction: column;
   justify-items: flex-start;
+  position: relative;
   border: 2px solid;
   border-radius: 1rem;
   padding: 2rem;
@@ -43,6 +45,22 @@
   color: var(--corporate_color_violett);
   background-color: white;
   box-shadow: 8px 8px 10px silver;
+}
+
+.section_leistungen-card::before {
+  content: ''url(content/faltenbehandlung.svg);
+  width: 50px;
+  position: absolute;
+  transform: scale(0.9);
+  top: -24%;
+  left: 65%;
+  z-index: 8;
+}
+
+.section_leistungen-card:nth-child(2)::before {
+  content: ''url(content/hautstruktur.svg);
+  top: -18%;
+  left: 65%;
 }
 
 .section_leistungen-card > p {
@@ -102,6 +120,7 @@
 }
 
 /* MENUE___________________________________________*/
+
 #team {
   margin-top: 20rem;
 }

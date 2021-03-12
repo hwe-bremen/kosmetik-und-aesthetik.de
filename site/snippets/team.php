@@ -7,7 +7,12 @@
 
     <div class="section_leistungen-cards"> 
 
+
             <?php foreach($data->children()->listed() as $team): ?>
+
+      
+
+
         <div class="section_leistungen-card">
     
             <h2>    <?= $team->title() ?></h2> <br>
@@ -25,4 +30,3 @@
         </div>  
 
 </section> 
-     

@@ -11,4 +11,11 @@ fields:
     label: Text
     type: textarea
     size: large
+ Cover:
+      type: files 
+      headline: Cover
+      layout: cards
+      template: image
+      image:
+          cover: true      
 
