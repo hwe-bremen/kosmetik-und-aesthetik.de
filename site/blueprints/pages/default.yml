@@ -7,15 +7,17 @@ options:
     - leistungen
     - leistungen_sub_level_one
 fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
- Cover:
-      type: files 
-      headline: Cover
-      layout: cards
-      template: image
-      image:
-          cover: true      
+   text:
+    label: Textblock
+    type: blocks
+    fieldsets:
+      - heading
+      - text
+ cover:
+    type: files 
+    headline: Cover
+    layout: cards
+    template: image
+    image:
+        cover: true      
 

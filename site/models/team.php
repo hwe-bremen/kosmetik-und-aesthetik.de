@@ -1,13 +1,12 @@
 <?php
 
 
-class teamPage extends Page
+class TeamPage extends Page
 {
     public function cover()
 {
-    return $this->content()->get('cover')->toFile() ?? $this->image();
+    return $this->content()->get('cover')->toFile() ?? $this->image()->url();
 
 }
 }
 
-?>

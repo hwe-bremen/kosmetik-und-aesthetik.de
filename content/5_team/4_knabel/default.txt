@@ -2,8 +2,10 @@ Title: Knabel
 
 ----
 
-Text:
+Text: [{"content":{"text":"<p>Frau Knabel\nstaatlich gepr\u00fcfte\nKosmetikerin<\/p>"},"id":"3183532d-c001-4f3c-9d50-bfa81472c5a5","isHidden":false,"type":"text"}]
 
-Frau Knabel
-staatlich geprüfte
-Kosmetikerin
+----
+
+Cover:
+
+- frau-knabel@2x.jpg

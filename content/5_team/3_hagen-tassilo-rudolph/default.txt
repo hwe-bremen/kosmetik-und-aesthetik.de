@@ -2,8 +2,10 @@ Title: Hagen-Tassilo Rudolph
 
 ----
 
-Text:
+Text: [{"content":{"text":"<p>Herr\nHagen-Tassilo Rudolph\nFacharzt f\u00fcr Haut- und Geschlechtskrankheiten, Berufsdermatologie<\/p>"},"id":"06d7b790-3a76-418a-a989-330f8520c7b4","isHidden":false,"type":"text"}]
 
-Herr
-Hagen-Tassilo Rudolph
-Facharzt für Haut- und Geschlechtskrankheiten, Berufsdermatologie
+----
+
+Cover:
+
+- hagen-tassilo-rudolph@2x.jpg

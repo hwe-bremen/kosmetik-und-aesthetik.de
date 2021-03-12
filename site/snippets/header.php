@@ -17,6 +17,7 @@
         'assets/css/intro-min.css',
         'assets/css/leistungen-min.css',
         'assets/css/institut-min.css',
+        'assets/css/team-min.css',
         'assets/css/mediascreen-min.css',
  ])  ?> 
 

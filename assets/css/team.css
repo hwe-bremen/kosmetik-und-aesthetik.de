@@ -1,0 +1,87 @@
+#team {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .section_team-intro {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    z-index: 5;
+    margin-top: -10rem;
+  }
+  
+  .section_team-text {
+    margin: 0 2rem 0 1rem;
+    position: relative;
+    font-family: linotype-vectora, sans-serif;
+    text-align: center;
+    color: var(--corporate_color_violett);
+  }
+  
+  .section_team-text:nth-child(1) {
+    font-weight: 400;
+  }
+  
+  .section_team-cards {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+    margin: 0.5rem;
+    padding: 0.5rem;
+    grid-row-gap: 5rem;
+    row-gap: 5rem;
+    z-index: 5;
+  }
+  
+  .section_team-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    position: relative;
+    color: var(--corporate_color_violett);  
+  }
+
+  .team_bild--cover {
+    object-fit: cover;
+}
+
+.team-cards--text {
+    text-align: center;
+}
+
+  .section_team-card > p {
+    margin: 0 0 2rem 0;
+  }
+  
+  .section_team-card > h2 {
+    margin: 0 0 1.5rem 0;
+   }
+  
+
+  .abbinder {
+    margin: 4rem auto;
+    text-align: center;
+    width: 70%;
+  }
+  
+  .section_team_sub--sub {
+    display: grid;
+    grid-template-columns:  minmax(10px, 10%) minmax(300px, 1300px) minmax(10px, 10%);
+    margin-top: -10rem;
+    position: relative;
+    z-index: 5;
+  }
+  
+  .section_team_sub--sub-inhalt {
+    grid-column: 2 / span 1;;
+    font-family: linotype-vectora, sans-serif;
+    text-align: left;
+    margin: 0 4rem 0 0;
+    color: var(--corporate_color_violett);
+  }
+  
+  /* MENUE___________________________________________*/
+  

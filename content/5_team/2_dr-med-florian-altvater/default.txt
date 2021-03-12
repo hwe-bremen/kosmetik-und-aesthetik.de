@@ -2,10 +2,10 @@ Title: Dr. med. Florian Altvater
 
 ----
 
-Text:
+Text: [{"content":{"text":"<p>Herr Dr. med. \nFlorian Altvater\nFacharzt f\u00fcr Haut- und Geschlechtserkrankungen,\nAllergologe, \nBerufsdermatologe<\/p>"},"id":"ceceaed3-8107-4628-b82a-34f31c60fe14","isHidden":false,"type":"text"}]
 
-Herr Dr. med. 
-Florian Altvater
-Facharzt für Haut- und Geschlechtserkrankungen,
-Allergologe, 
-Berufsdermatologe
+----
+
+Cover:
+
+- florian-altvater@2x.jpg
