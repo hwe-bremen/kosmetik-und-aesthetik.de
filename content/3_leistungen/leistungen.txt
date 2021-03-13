@@ -6,4 +6,4 @@ Text: [{"content":{"level":"h2","text":"Wir bieten Ihnen ein breites Angebot an 
 
 ----
 
-Abbinder: Entsprechend unserer medizinischen Ausrichtung, bieten wir keine kosmetischen Leistungen wie Make-Up,  Augenbrauen zupfen, färben oder Nagelpflege an.
+Abbinder: *Entsprechend unserer medizinischen Ausrichtung, bieten wir keine kosmetischen Leistungen wie Make-Up,  Augenbrauen zupfen, färben oder Nagelpflege an.

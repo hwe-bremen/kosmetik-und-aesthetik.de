@@ -2,12 +2,14 @@
 
 @media only screen and (min-width: 400px) {
 
+/* HEADER___________________________________________*/
+
   #header_bereich {
     background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
     linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%) no-repeat;
-    background-size: 25rem,
+    background-size: 23rem,
     100%;
-    background-position: 50vw -45%,
+    background-position: 50vw -3rem,
     0rem 0rem;
 }
 
@@ -15,13 +17,24 @@
   height: 80vh;
 }
 
+#section_intro--frau {
+    height: 55%;
+}
+
+/* INTRO___________________________________________*/
+
+.section_leistungen-intro {
+  margin-top: -15rem;
+  margin-bottom: 4rem;
+}
+
+/* Institut___________________________________________*/
+
 .grid_institut {
   grid-template-columns: repeat(12, minmax(10px, 1fr));
   grid-template-rows: minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr);
   grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr);
 }
-
-
 
 .text_left {
   grid-column: 1 /span 12;
@@ -45,24 +58,20 @@ display: none;
 .bild_gallery {
   grid-column: 1 /span 6;
   grid-row: 4 / span 1;
-  padding: 0.2rem 0.3rem 0.2rem 0;
-
 }
 
 .bild_gallery:nth-child(6) {
   grid-column: 7 /span 6;
   grid-row: 4 / span 1;
-  padding: 0.2rem 0.3rem 0.2rem 0.2rem;
+  height: 100%;
 }
 .bild_gallery:nth-child(7) {
   grid-column: 7 /span 6;
   grid-row: 5 / span 1;
-  padding: 0.2rem 0 0.2rem 0.2rem;
 }
 .bild_gallery:nth-child(8) {
   grid-column: 1 /span 6;
   grid-row: 5 / span 1;
-  padding: 0.2rem 0.3rem 0.2rem 0.2rem;
 }
 .bild_gallery:nth-child(9) {
   display: none;
@@ -76,6 +85,7 @@ display: none;
     grid-template-rows: minmax(40rem, min-content) minmax(calc(100vh - 53rem), min-content) minmax(8rem, min-content);
   }
 
+  /* Header___________________________________________*/
   #header_bereich {
     background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
     linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
@@ -93,6 +103,9 @@ display: none;
    margin: 8rem 0 0 4rem;
    height: 16rem;
  }
+
+
+   /* INTRO___________________________________________*/ 
 
   #intro {
     display: grid;
@@ -145,6 +158,21 @@ display: none;
   .text_left> p {
    font-size: 1rem;
  }
+
+ .bild_gallery:nth-child(6) {
+  width: 99%;
+ }
+
+
+ .bild_gallery:nth-child(7) {
+  width: 99%;
+ }
+
+.bild_gallery:nth-child(8) {
+ width: 99%;
+}
+
+
 
 }
 
@@ -202,40 +230,58 @@ display: none;
 .bild_gallery {
     grid-column: 1 /span 6;
     grid-row: 3 / span 2;
-    padding: 0.2rem 0.3rem 0.2rem 0;
-
-}
+    height: 100%;
+    width: 100%;
+  } 
 
 .bild_gallery:nth-child(6) {
     grid-column: 7 /span 3;
     grid-row: 3 / span 1;
-    padding: 0.2rem 0.3rem 0.2rem 0.2rem;
-}
+    height: 100%;
+    width: 99%;
+  
+  }
+    
 .bild_gallery:nth-child(7) {
     grid-column: 10 /span 3;
     grid-row: 3 / span 1;
-    padding: 0.2rem 0 0.2rem 0.2rem;
+    height: 100%;
+    width: 99%;
 }
 .bild_gallery:nth-child(8) {
     grid-column: 7 /span 3;
     grid-row: 4 / span 1;
-    padding: 0.2rem 0.3rem 0.3rem 0.2rem;
+    height: 100%;
+    width: 99%;
 }
 .bild_gallery:nth-child(9) {
     display: unset;
     grid-column: 10 /span 3;
-    grid-row: 4 / span 1;
-    padding: 0.2rem 0 0.2rem 0.2rem;
+    grid-row: 4 / span 1; 
+    height: 100%;
+    width: 99%;
 }
-  
+
+.section_team-cards {
+  margin: 2rem;
+  grid-column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.section_team-card {
+  width: 80%; 
+}
+
 }
 
 @media only screen and (min-width: 1024px) {
 
   #header_bereich {
     background: url(content/Statueportraitart_korrigiert_final.png) 180% 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
-    background-size: 35%, 100%;
-    background-position: 100%;
+    background-size: 32%, 100%;
+    background-position: 100% 3rem;
   }
 
   #background_picture {
@@ -306,6 +352,35 @@ display: none;
     grid-row: 1 / span 1;
     margin: 2rem 4rem 0 2rem;
 }
+
+.section_team-cards {
+  margin: 2rem;
+  grid-column-gap: 2rem;
+  -webkit-column-gap: 2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.section_team-card {
+  width: 80%; 
+}
+
+.team-cards--text{
+  height: 10rem;
+}
+
+.team-cards--text p {
+  font-size: 1.2rem;
+}
+
+.kontakt-left {
+  grid-row:  2 / span 1;
+}
+
+.kontakt-right {
+  grid-row: 2 / span 1;
+}
+
  
 }
 
@@ -313,8 +388,8 @@ display: none;
   @media (min-device-width: 1024px) and (orientation: landscape) {
 
     #header_bereich {
-      background-size: 30%, 100%;
-      background-position: 100%;
+      background-size: 25%, 100%;
+      background-position: 100% 3rem;
     }
 
     .text_right > h2 {
@@ -339,8 +414,8 @@ body {
 }
 #header_bereich {
   background: url(content/Statueportraitart_korrigiert_final.png) no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
-  background-size: 25rem, 100%;
-  background-position: 80%;
+  background-size: 23rem, 100%;
+  background-position: 90% 5rem;
 }
 
 #background_picture {
@@ -405,7 +480,6 @@ p {
   font-size: 1.8rem;
 }
 
-
 .text_right > h2 {
   font-size: 2rem;
 }
@@ -417,6 +491,8 @@ p {
 .text_left> p {
  font-size: 1.5rem;
 }
+
+
 
 }
 @media only screen and (min-width: 2000px) {

@@ -47,30 +47,25 @@
 .bild_gallery {
     grid-column: 1 /span 12;
     grid-row: 4 / span 1;
-    width: 98%;
+    width: 99%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
     background-color: white;
     margin: 0;
-    border: solid white 4px;
+    border: solid 2px white;
 
 }
 
 .bild_gallery:nth-child(6) {
     grid-column: 1 /span 6;
     grid-row: 5 / span 1;
-    width: 99%;
+    width: 98%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    border-top: 0px;
-    border-left: 4px solid white;
-    border-right: 2px solid white;
-    border-bottom: 4px solid white;
-    
-  
 }
+
 .bild_gallery:nth-child(7) {
     grid-column: 7 /span 6;
     grid-row: 5 / span 1;
@@ -78,11 +73,6 @@
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    border-top: 0;
-    border-left: 2px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-  
 }
 .bild_gallery:nth-child(8) {
     grid-column: 1 /span 6;
@@ -91,24 +81,48 @@
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    object-fit: cover;
-    border-top: 1px;
-    border-left: 4px solid white;
-    border-right: 2px solid white;
-    border-bottom: 4px solid white;
-
 }
 .bild_gallery:nth-child(9) {
     grid-column: 7 /span 6;
     grid-row: 6 / span 1;
-
-    height: 98%;
+    width: 98%;
+    height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    object-fit: cover;
-    border-top: 2px;
-    border-left: 2px solid white;
-    border-right: 4px solid white;
-    border-bottom: 4px solid white;
-  
 }
+
+    /* KONTAKT___________________________________________*/
+
+    .kontakt_intro {
+        grid-column: 2 /span 10;
+        grid-row: 1;
+        padding-bottom: 1rem;
+        border-bottom: solid 1px var(--corporate_color_violett);
+        margin-bottom: 3rem;
+    }
+
+    .kontakt_title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .kontakt-left {
+        grid-row:  2 / span 1;
+    }
+
+    .kontakt-right {
+        grid-column: 1 /span 12;
+        grid-row: 3 / span 1;
+    }
+
+    .kontakt-background {
+        background-image: none;
+  
+    }
+
+    .kontakt-text_right {
+        color: var(--corporate_color_violett);
+        width: 60vw;      
+        text-align: center;
+        justify-self: center;
+    }

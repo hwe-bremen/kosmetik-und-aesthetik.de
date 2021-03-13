@@ -111,9 +111,9 @@
         grid-row: 1 / span 1;
         background: url(content/Statueportraitart_korrigiert_final.png) no-repeat,
         linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%)no-repeat;
-        background-size: 100%,
+        background-size: 95%,
         100%;
-        background-position: 11rem -5rem,
+        background-position: 11rem -3rem,
         0rem 0rem;
     }
   

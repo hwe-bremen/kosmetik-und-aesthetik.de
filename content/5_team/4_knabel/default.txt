@@ -2,7 +2,7 @@ Title: Knabel
 
 ----
 
-Text: [{"content":{"text":"<p>Frau Knabel\nstaatlich gepr\u00fcfte\nKosmetikerin<\/p>"},"id":"3183532d-c001-4f3c-9d50-bfa81472c5a5","isHidden":false,"type":"text"}]
+Text: [{"content":{"text":"<p><strong>Frau Knabel <\/strong><br>staatlich gepr\u00fcfte <br>Kosmetikerin<\/p>"},"id":"213e94ea-34fe-4759-a735-e20d21b83b67","isHidden":false,"type":"text"}]
 
 ----
 

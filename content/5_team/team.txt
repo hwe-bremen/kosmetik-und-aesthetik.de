@@ -1,4 +1,5 @@
-Text:
+Text: [{"content":{"text":"<p><strong>Es betreut Sie das Team der Hautarztpraxis Altvater und Partner. <\/strong><br>Bei dermatologischen Krankheits-Symptomen wenden Sie sich bitte direkt an unsere Hautarztpraxis.<\/p>"},"id":"aebaa90d-30a0-4320-8cdd-23812d6d17b6","isHidden":false,"type":"text"}]
 
-Es betreut Sie das Team der Hautarztpraxis Altvater und Partner.
-Bei dermatologischen Krankheits-Symptomen wenden Sie sich bitte direkt an unsere Hautarztpraxis.
+----
+
+Cover: 
