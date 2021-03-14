@@ -19,13 +19,13 @@
         
 
             <div class="section_leistungen-tags">
-                <nav>
-                    <ul class="leistungen_nav">   <?php foreach($leistungen_sub->children()->listed() as $leistungen_sub): ?>
-                        <a class="tags_leistungen" href="<?= $leistungen_sub->url() ?>"><li class="section_leistungen-tags-nav"><p><?= $leistungen_sub->tags()->html() ?></p></li></a>
+                <div>
+                    <div class="leistungen_nav">   <?php foreach($leistungen_sub->children()->listed() as $leistungen_sub): ?>
+                        <a class="tags_leistungen" href="<?= $leistungen_sub->url() ?>"><div class="section_leistungen-tags-nav"><p><?= $leistungen_sub->tags()->html() ?></p></div></a>
                         <?php endforeach ?>
-                    </ul>
+                    </div>
                        
-                </nav>
+                    </div>
 
             </div>
           

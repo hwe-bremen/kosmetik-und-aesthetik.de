@@ -15,12 +15,12 @@
 
                 <button class= button_standard>  <a href="<?= $leistungen->url() ?>">Erfahren Sie hier mehr</a></button> 
 
-            <div class="section_leistungen-tags">
-                <nav>
-                    <ul>
-                        <li class="section_leistungen-tags-nav">  <?= $leistungen->title()->html() ?></li>
-                    </ul>
-                </nav>
+            <div class="section_leistungen-tags-nav">
+               
+            <?php foreach($data->children()->listed() as $leistungen_sub): ?>
+                        <div class="section_leistungen-tags"> <p> <?= $leistungen_sub->tags()->html() ?></p> </div>
+           
+                        <?php endforeach ?>
             </div>
           
         </div>

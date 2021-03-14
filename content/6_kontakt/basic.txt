@@ -1,14 +1,16 @@
+Title: Kontakt
+
+----
+
 Text: 
 
 ----
 
-Image-left:
-
-- kontakt_karte.jpg
+Image-left: - kontakt_karte.jpg
 
 ----
 
-Blocks: [{"content":{"text":"<p>Unsere Institutsr\u00e4ume liegen verkehrstechnisch g\u00fcnstig gelegen. In unmittelbarer N\u00e4he des Roland-Centers in Bremen Huchtingen. Kirchhuchtinger Landstr. 80 28259 Bremen Center Point-Geb\u00e4ude (vor dem Roland-Center) Telefon: 0421-579 57 20 Termine: 0421-572 03 30 Fax: 0421-579 57 21 info@kosmetik-und-aesthetik.de<\/p>"},"id":"3a772266-4ab2-4814-85a8-7e96d02cfdc5","isHidden":false,"type":"text"}]
+Blocks: [{"content":{"text":"<p>Unsere Institutsr\u00e4ume liegen verkehrstechnisch g\u00fcnstig gelegen. <\/p><p>In unmittelbarer N\u00e4he des Roland-Centers in Bremen Huchtingen. <\/p><p>Kirchhuchtinger Landstr. 80 <br>28259 Bremen <br>Center Point-Geb\u00e4ude (vor dem Roland-Center) <br><br>Telefon: 0421-579 57 20 <br>Termine: 0421-572 03 30 <br>Fax: 0421-579 57 21 <br>info@kosmetik-und-aesthetik.de<\/p>"},"id":"3a772266-4ab2-4814-85a8-7e96d02cfdc5","isHidden":false,"type":"text"}]
 
 ----
 

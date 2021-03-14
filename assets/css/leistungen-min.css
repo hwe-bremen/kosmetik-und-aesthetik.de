@@ -41,7 +41,7 @@
 .section_leistungen-card {
   display: flex;
   flex-direction: column;
-  justify-items: flex-start;
+  justify-content: flex-start;
   position: relative;
   border: 2px solid;
   border-radius: 1rem;
@@ -90,6 +90,7 @@
   content: ''url(content/laserepilation.svg);
   top: -37%;
   left: 65%;
+  transform: scale(0.7);
 }
 
 .section_leistungen-card > p {
@@ -110,13 +111,18 @@
 
  }
  .section_leistungen-tags-nav {
-   height: 2rem;
-   background-color: var(--corporate_color_violett);
-    display: flex;
-    flex-direction: wrap;
-    justify-content: left;
-    margin: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
 
+  margin-top: 2rem;
+
+}
+
+.section_leistungen-tags {
+  background-color: var(--corporate_color_violett);
+  margin: 0.2rem;
+  color: white;
 }
 
 .section_leistungen-tags-nav p {

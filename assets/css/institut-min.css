@@ -1,8 +1,8 @@
 .grid_institut {
     display: grid;
     grid-template-columns: repeat(12, minmax(30px, 1fr));
-    grid-template-rows: minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr) minmax(-webkit-min-content 1fr)  minmax(-webkit-min-content 1fr);
-    grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr)  minmax(min-content 1fr);
+    grid-template-rows: repeat(auto-fill, minmax(20em, 1fr));
+    /*minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr)  minmax(min-content 1fr);*/
     position: relativ;
     z-index: 5;
     background-image: linear-gradient(to left, var(--corporate_color_violett_hell) -30%, var(--corporate_color_violett)50%);
@@ -45,16 +45,20 @@
 }
 
 .bild_gallery {
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-color: white;
+    margin: 0;
+    border: solid 2px white;
+}
+
+.bild_gallery:nth-child(5) {
     grid-column: 1 /span 12;
     grid-row: 4 / span 1;
     width: 99%;
     height: auto;
     -o-object-fit: cover;
     object-fit: cover;
-    background-color: white;
-    margin: 0;
-    border: solid 2px white;
-
 }
 
 .bild_gallery:nth-child(6) {
@@ -103,6 +107,8 @@
 
     .kontakt_title {
         text-align: center;
+        color: var(--corporate_color_violett);
+        font-weight: 300;
         margin: 0 auto;
     }
 

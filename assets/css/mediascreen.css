@@ -32,7 +32,6 @@
 
 .grid_institut {
   grid-template-columns: repeat(12, minmax(10px, 1fr));
-  grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr);
 }
 
 .text_left {
@@ -54,15 +53,17 @@ display: none;
   margin: 2rem 5rem 0 2rem;
 }
 
-.bild_gallery {
-  grid-column: 1 /span 6;
-  grid-row: 4 / span 1;
+
+.bild_gallery:nth-child(5) {
+  width: 100.8%;
+  height: auto;
+  object-fit: cover;
 }
 
 .bild_gallery:nth-child(6) {
   grid-column: 7 /span 6;
   grid-row: 4 / span 1;
-  height: 100%;
+  display: none;
 }
 .bild_gallery:nth-child(7) {
   grid-column: 7 /span 6;
@@ -103,7 +104,7 @@ display: none;
  }
 
 
-   /* INTRO___________________________________________*/ 
+/* INTRO___________________________________________*/ 
 
   #intro {
     display: grid;
@@ -126,6 +127,8 @@ display: none;
 
   }
 
+/* LEISTUNGEN___________________________________________*/ 
+
 .section_leistungen-intro {
   display: grid;
   grid-template-columns: 1fr 60%;
@@ -136,6 +139,32 @@ display: none;
     grid-column: 2/ span 1;
     text-align: left;
   }
+
+  .section_leistungen-card::before {
+    top: -27%;
+}
+
+  .section_leistungen-card:nth-child(2)::before {
+    top: -18%;
+}
+
+  .section_leistungen-card:nth-child(3)::before {
+  top: -38%;
+}
+
+.section_leistungen-card:nth-child(4)::before {
+  transform: scale(0.7);
+  top: -40%;
+}
+
+.section_leistungen-card:nth-child(6)::before {
+  transform: scale(0.8);
+  top: -41%;
+}
+
+
+
+/* INSTITUT___________________________________________*/ 
 
   .text_right {
     margin: 1rem;
@@ -157,8 +186,16 @@ display: none;
    font-size: 1rem;
  }
 
+
+ .bild_gallery:nth-child(5) {
+  grid-column: 1 /span 6;
+  grid-row: 4 / span 1;
+  width: 99%;
+ }
+
  .bild_gallery:nth-child(6) {
   width: 99%;
+  display: unset;
  }
 
 
@@ -170,13 +207,21 @@ display: none;
  width: 99%;
 }
 
+/* KONTAKT___________________________________________*/ 
 
+.kontakt-text_right {
+  width: 40vw;      
+}
 
 }
 
 
 
 @media (min-device-width: 768px) and (orientation: landscape) {
+
+
+
+/* INTRO___________________________________________*/ 
 
   .section_leistungen-intro {
     margin-top: -15rem;
@@ -190,10 +235,12 @@ display: none;
     row-gap: 9rem;
   }
 
+     /* INSTITUT___________________________________________*/ 
+
   .grid_institut {
     display: grid;
-    grid-template-columns: repeat(12, minmax(80px, 1fr));
-    grid-template-rows: minmax(min-content 1fr) minmax(min-content 1fr) minmax(min-content 1fr);
+    grid-template-columns: repeat(12, minmax(60px, 1fr));
+    grid-template-rows: minmax(50px 1fr) minmax(50px 1fr) minmax(50px 1fr);
 }
 
 .section_institut_left {
@@ -222,40 +269,41 @@ display: none;
     margin: 2rem 4rem 0 2rem;
 }
 
-.bild_gallery {
+.bild_gallery:nth-child(5) {
     grid-column: 1 /span 6;
     grid-row: 3 / span 2;
-    height: 100%;
-    width: 100%;
+    width: 100.2%;
+    height: auto;
   } 
 
 .bild_gallery:nth-child(6) {
     grid-column: 7 /span 3;
     grid-row: 3 / span 1;
-    height: 100%;
     width: 99%;
-  
+    height: auto;
   }
     
 .bild_gallery:nth-child(7) {
     grid-column: 10 /span 3;
     grid-row: 3 / span 1;
-    height: 100%;
     width: 99%;
+    height: auto;
 }
 .bild_gallery:nth-child(8) {
     grid-column: 7 /span 3;
     grid-row: 4 / span 1;
-    height: 100%;
     width: 99%;
+    height: auto;
 }
 .bild_gallery:nth-child(9) {
     display: unset;
     grid-column: 10 /span 3;
     grid-row: 4 / span 1; 
-    height: 100%;
     width: 99%;
+    height: auto;
 }
+
+/* TEAM___________________________________________*/ 
 
 .section_team-cards {
   margin: 2rem;
@@ -263,13 +311,31 @@ display: none;
   column-gap: 2rem;
 }
 
+.kontakt-left {
+  grid-row:  2 / span 1;
+}
+
+.kontakt-right {
+  grid-column: 7 / span 6;
+  grid-row: 2 /span 1;
+}
+
 .section_team-card {
   width: 80%; 
 }
 
+.kontakt-text_right {
+  width: 40vw;      
+}
+
+
+
+
 }
 
 @media only screen and (min-width: 1024px) {
+
+  /* HEADER___________________________________________*/ 
 
   #header_bereich {
     background: url(content/Statueportraitart_korrigiert_final.png) 180% 10% no-repeat, linear-gradient(to right, var(--corporate_color_violett_hell) -20%, var(--corporate_color_violett)50%);
@@ -320,6 +386,15 @@ display: none;
     font-size: 2rem;
   }
 
+/* LEISTUNGEN___________________________________________*/ 
+
+  .section_leistungen-cards {
+    column-gap: 2rem;
+    grid-column-gap: 2rem;
+  }
+
+/* INSTITUT___________________________________________*/ 
+
   .section_institut_left {
     grid-column: 1 /span 6;
     grid-row: 1 / span 1;
@@ -346,6 +421,8 @@ display: none;
     margin: 2rem 4rem 0 2rem;
 }
 
+/* TEAM___________________________________________*/ 
+
 .section_team-cards {
   margin: 2rem;
   grid-column-gap: 2rem;
@@ -364,12 +441,18 @@ display: none;
   font-size: 1.2rem;
 }
 
+/* KONTAKT___________________________________________*/ 
+
+
 .kontakt-left {
   grid-row:  2 / span 1;
 }
 
 .kontakt-right {
   grid-row: 2 / span 1;
+  grid-column: 7 / span 6;
+  font-size: 1rem;
+  width: 30vw; 
 }
 
  
@@ -394,6 +477,17 @@ display: none;
     .text_left> p {
      font-size: 1.2rem;
    }
+
+   .section_leistungen-card:nth-child(3)::before {
+    top: -29%;
+}
+
+.bild_gallery:nth-child(5) {
+  width: 100%;
+} 
+
+
+
 
   }
 
@@ -449,6 +543,15 @@ body {
   font-size: 1.5rem;
 }
 
+.section_leistungen-card::before {
+  top: -27%;
+}
+
+.section_leistungen-card:nth-child(2)::before {
+  top: -19%;
+  left: 67%;
+}
+
 .abbinder {
   margin: 8rem auto;
   text-align: center;
@@ -467,7 +570,7 @@ h2 {
 }
 
 p {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .text_right > h2 {
@@ -481,6 +584,7 @@ p {
 .text_left> p {
  font-size: 1.5rem;
 }
+
 
 
 
